@@ -35,7 +35,7 @@ def extract_handles(file):
             item = item[0]
             
             # write initial tweeter handle and entities_str twitter handles to file in network edge format
-            handles.write(from_user + ',' + item + "," + '\n')
+            handles.write(from_user + ',' + item + '\n')
     
     # close files
     text.close()
