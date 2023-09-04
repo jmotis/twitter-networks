@@ -15,3 +15,5 @@ Additional code that is not TAGS 6.0-specific includes
 For those using TAGS 6.1, the field with the full tweet string is the 17th column instead of the 16th.
 If running networkCreation.py leads to the creation of a blank edge list, with just a header row, try networkCreation17.py instead.
 If that works fine, you can run all the TAGS 6.0 code by finding the for loop lines where I've set entities_str = line[16] and change it to line[17].
+
+This repository was archived in Fall 2023, following the demise of Twitter. If you can get the data out of its successor site, it may still work, but it is no longer being tested/updated.
